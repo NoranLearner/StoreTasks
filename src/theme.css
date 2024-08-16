@@ -1,0 +1,66 @@
+.theme-btn {
+    outline: 0;
+    border-radius: 1rem;
+    padding: 0.3rem 0.5rem;
+    margin: 1rem;
+    color: #fff;
+    /* background-color: #3d4a59; */
+    background-color: transparent;
+    border: 1.5px solid #ddd;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: all 0.3s;
+}
+
+.theme-btn:hover {
+    box-shadow: 0 0 10px #9e4673, 0 0 40px #9e4673, 0 0 80px #9e4673;
+    background: #9e4673;
+    border: none;
+    outline: 0;
+}
+
+.theme-btn:focus {
+    padding: 4px 12px;
+    box-shadow: 0 0 10px #9e4673, 0 0 40px #9e4673, 0 0 80px #9e4673;
+    box-shadow: 0 0 0 5px #3d4a59, 0 0 0 6px #fff;
+}
+
+/* -------- Dark Mode --------- */
+
+.Dark {
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+}
+
+.Dark main {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+/* ==============
+Icon (sun & moon)
+==================*/
+.fa-solid {
+    font-size: 20px;
+}
+
+.fa-solid:hover {
+    font-size: 22px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+
+.Dark .fa-sun {
+    display: none;
+}
+
+.Light .fa-moon {
+    display: none;
+}
+
+.fa-sun {
+    color: orange;
+}
+
+.fa-moon{
+    color: #ddd;
+}
